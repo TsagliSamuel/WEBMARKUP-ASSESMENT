@@ -1,0 +1,233 @@
+/* EXTERNAL FONT */
+@font-face{
+    src:url("fonts/Berlin Sans FB Regular.ttf");
+    font-family:Berlin;
+}
+
+ header{
+     text-align:center;
+ }
+
+h4{
+    text-align: center;
+    font-style: italic;
+    float:right;
+}
+
+.mainheader{
+    font-family: Berlin;
+    font-size: 80pt;
+}
+
+ 
+  /* NAVIGATION BAR */
+.menu {
+    list-style: none;
+    background-color:#2699fb;
+    padding: 0;
+    margin:0;
+    
+}
+.menu a{
+    color:#000000;
+}
+.menu li {
+    display: inline-block;
+    padding: 20px; 
+}
+.menu a:hover {
+    background-color: #ffffff;
+    
+}
+nav ul {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}  
+
+
+/* MAIN BODY */
+body {
+    
+    width:100%;
+    font-size: 1.8em;
+    background-color: #AAAAAA;
+    font-family:Arial, Helvetica, sans-serif;
+}
+   
+
+/* OVERALL ARTICLE */
+article{
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* OVERALL FOOTER */
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 2px;  
+}
+
+/* OVERALL SECTION */
+section{
+    padding:5px;
+    float:left;
+}
+
+
+/* MAIN CONTENT */
+#maincontent {
+    display: flex;
+    padding:60px;   
+    margin: 20px;
+    position: relative;
+    font-size: 1em; 
+    left:30%;
+}
+  
+#maincontent a:hover{
+    background-color: #ffffff;
+} 
+
+.about-netherlands{
+   text-transform: uppercase;
+   float:left;
+   left : 20%;
+   margin: 0;
+   padding:0;
+}
+.bicycles-image {
+    width: 350px;
+    float: left;
+}
+
+.amsterdam-image {
+    background-color: #444444;
+    width: 350px;  
+}
+
+.maincontent-footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align:center;
+}
+/* VIDEO */
+video{
+    position: fixed;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+    opacity: 50%;
+}
+ 
+/* SECONDARY CONTENT */
+#secondarycontent {
+    margin: 80px;
+    padding: 21em;
+    position: relative;
+    text-align: left;
+    left: 5%; 
+}   
+#secondarycontent a:hover{
+    background-color: #ffffff;
+} 
+#secondarycontent section{
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    width:600px;
+ }
+ #secondarycontent img{
+    background-color: #444444;
+    width: 350px;
+ }
+.firstheading {
+    text-align: center;
+    margin: 0 auto;
+    width:600px;
+}
+.secondary-footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+}
+
+
+/* SPORT CONTENT */
+#sportcontent {
+    margin: 10px;
+    padding: 30px;
+    position: relative;
+    left: 30%;
+}
+
+#sportcontent li {
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    width:600px;
+}
+#sportcontent a:hover{
+    background-color: #ffffff;
+} 
+
+
+/* SECONDARY-CONTENT-IMAGES */
+#sportcontent img{
+    background-color: #f5f5f5;
+    width: 350px;
+}
+   
+
+/* CONTACT CONTENT */
+#contactcontent {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    position: relative;
+    left: 7em;
+    top: 5em;
+    text-align: center;
+}
+
+/* REFERRAL CONTENT */
+
+aside{
+    margin: 10px;
+    width:300px;
+    position: relative;
+    float:right;
+    right:5%;
+}
+ 
+    /* FOOTER */
+#mainfooter{
+    padding:10px ;
+}
+#mainfooter p{
+    text-align: center;
+}
+
