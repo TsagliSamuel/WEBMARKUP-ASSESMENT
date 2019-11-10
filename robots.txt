@@ -1,1 +1,3 @@
-User-agent: *Disallow: /forbidden/
+User-agent: *
+Disallow: /forbidden/
+https://taekwon.eu/641496/sitemap.xml
